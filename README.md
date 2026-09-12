@@ -7,6 +7,8 @@ enero 2022 – julio 2026 (55 meses).
 ¿Ese crecimiento cambió la *estructura* del sector — cuándo llega la gente,
 de dónde viene y a qué polo turístico va — o simplemente hay más de lo mismo?
 
+![Tendencia de llegadas de pasajeros no residentes extranjeros, 2022-2026](reports/figures/01_llegadas_tendencia.png)
+
 ## Hallazgos y qué hacer con ellos
 
 | Hallazgo | Qué implica decidir |
