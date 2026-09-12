@@ -1,5 +1,41 @@
+# --- Específico de este proyecto -----------------------------------------
+# Los Excel crudos se bajan con `python -m src.download`. No se versionan:
+# son ~3 MB, cambian cada mes en el servidor de MITUR, y la fuente de verdad
+# es la institución, no el repo. Lo que sí se versiona es data/processed/.
 data/raw/
+
+# --- Python ---------------------------------------------------------------
 __pycache__/
-*.pyc
-.ipynb_checkpoints/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# --- Entornos virtuales ---------------------------------------------------
 .venv/
+venv/
+env/
+.python-version
+
+# --- Jupyter --------------------------------------------------------------
+.ipynb_checkpoints/
+
+# --- Tests y herramientas -------------------------------------------------
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# --- Secretos -------------------------------------------------------------
+.env
+.env.local
+*.key
+
+# --- Sistema operativo y editores -----------------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
